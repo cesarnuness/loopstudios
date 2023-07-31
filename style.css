@@ -38,9 +38,9 @@
   transition: all 0.25s ease-in-out;
   position: relative;
 }
-.hambuger-top,
-.hambuger-middle,
-.hambuger-bottom {
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
   position: absolute;
   width: 24px;
   height: 2px;
@@ -51,11 +51,11 @@
   transition: all 0.5s ease-in-out;
 }
 
-.hambuger-middle {
+.hamburger-middle {
   transform: translateY(7px);
 }
 
-.hambuger-bottom {
+.hamburger-bottom {
   transform: translateY(14px);
 }
 
@@ -63,14 +63,14 @@
   transform: rotate(90deg);
 }
 
-.open .hambuger-top {
-  transform: translateY(6px) rotate(45deg) translateX(6px);
+.open .hamburger-top {
+  transform: translateY(0px) rotate(45deg) translateX(0px);
 }
 
-.open .hambuger-middle {
+.open .hamburger-middle {
   display: none;
 }
 
-.open .hambuger-top {
-  transform: translateY(6px) rotate(-45deg) translateX(-6px);
+.open .hamburger-bottom {
+  transform: translateY(0px) rotate(-45deg) translateX(0px);
 }
